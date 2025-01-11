@@ -307,7 +307,7 @@ main{
 footer{
     height: 464px;
     width: 1280px;
-    border: 3px solid black;
+
     margin: 0 auto;
 }
 .donate-section{
@@ -318,4 +318,57 @@ footer{
    font-weight: bold;
    text-align: center;
    margin-bottom: 24px;
+}
+
+.donate-money{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px 104px;
+}
+
+.button-box{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+    border: none;
+    border-radius: 16px;
+    background-color: rgb(235, 235, 235);
+
+}
+
+.selected-button {
+    background-color: #C6E4D6;
+}
+
+.amount {
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    /* padding: 20px 422px; */
+    font-size: 20px;
+    background-color: rgb(235, 235, 235);
+    border: none;
+}
+
+.amount-section {
+    display: flex;
+    justify-content: center;
+
+    
+}
+.submit-button {
+    display: flex;
+    align-items: center;
+}
+.confirm {
+    height: 56px;
+    width: 151px;
+    margin: 0 auto;
+    border: none;
+    margin-top: 32px;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
 }
