@@ -1,3 +1,6 @@
+/* first page */
+
+
 * {
     margin: 0px;
 }
@@ -22,7 +25,7 @@ header {
 .title {
     color: #0E0E0E;
     margin-bottom: 16px;
-    /* margin-top: 117px; */
+    
 }
 .heading {
     font-size: 56px;
@@ -35,13 +38,10 @@ header {
     font-size: 18px;
     padding: 17px 34px;
     border-radius: 8px;
-    /* margin-bottom: 117px; */
+    border: none;
+    
 }
-/* .first-image{
-    margin-top: 80px;
-    margin-right: 60px;
-    margin-bottom: 80px;
-} */
+
 
 .first-content{
     height: 326px;
@@ -57,8 +57,11 @@ header {
 }
 
 
-.scend-page-main {
-    /* background-color: #C6E4D6; */
+/* scend page */
+
+
+.second-page-main {
+    
     height:560px;
     width: 1280px; 
     width: auto;
@@ -67,16 +70,17 @@ header {
     margin-top: 50px;
 
 }
-.scend-page {
-    border: 1px solid black;
+.second-page {
+    
     width: 1280px;
     height: 120px;
     margin: 0 auto;
+    margin-top: 80px;
     margin-bottom: 32px;
     
 }
 
-.scend-heading {
+.second-heading {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 24px;
@@ -89,7 +93,7 @@ header {
 }
 .The-Vision {
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content:space-evenly;
     align-items: center;
     width: 1280px;
@@ -116,9 +120,9 @@ header {
     margin-bottom: 24px;
 }
 .first-box p{
-    /* line-height: 24px; */
+    
     margin-bottom: 24px;
-    color: #0E0E0E;
+    color: rgb(149, 146, 146);
     font-weight: 600;
 }
 .first-box button{
@@ -126,55 +130,42 @@ header {
     padding: 11px 20px;
     background-color: #5490F5;
     border-radius: 8px;
-    border-color: none;
+    border: none;
+    margin-top: 60px;
 }
 
 
-.scend-box{
+.second-box{
     height: 325px;
     width: 410px;
     border-radius: 16px;
     background-color: #C6E4D6;
-    padding: 24px;
+    padding: 32px;
 }
-.scend-box-title{
+.second-box-title{
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 12px;
 }
 
 
-.scend-box img{
+.second-box img{
     margin-bottom: 24px;
 }
-.scend-box p{
+.second-box p{
     line-height: 24px;
     margin-bottom: 48px;
-    color: #0E0E0E;
+    color: rgb(149, 146, 146);
     font-weight: 600;
 }
-.scend-box button{
+.second-box button{
     color: white;
     padding: 11px 20px;
     background-color: #09A15C;
     border-radius: 8px;
-    border-color: none;
+    border: none;
+    margin-top: 45px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -183,7 +174,8 @@ header {
     width: 410px;
     border-radius: 16px;
     background-color: #F7EBCF;
-    padding: 24px;
+    padding: 32px;
+    
 }
 .theard-box-title{
     font-size: 20px;
@@ -200,7 +192,7 @@ header {
 .thered-box p{
     line-height: 24px;
     margin-bottom: 64px;
-    color: #0E0E0E;
+    color: rgb(149, 146, 146);  
     font-weight: 600;
 }
 .thered-box button{
@@ -208,25 +200,26 @@ header {
     padding: 11px 20px;
     background-color: #FFC239;
     border-radius: 8px;
-    border-color: none;
+    border: none;
+    margin-top: 32px;
 }
 
 
 /* main section */
 main{
-    /* height: 120px; */
+    
     width: 1280px;
     margin: 0 auto;
-    /* border: 1px solid black; */
     
 }
 .news{
-    /* border: 1px solid black; */
+    
     
     margin-bottom: 32px;
     width: 1280px;
     height: 120px;
     margin: 0 auto;
+    margin-top: 80px;
 }
 .recent-news{
     font-size: 40px;
@@ -234,7 +227,7 @@ main{
     margin-bottom: 24px;
 }
 .about-news{
-    color: #0E0E0E;
+    color: rgb(149, 146, 146);
     font-size: 16px;
     
 }
@@ -247,8 +240,7 @@ main{
     gap: 40px;
     margin: 0 auto;
     margin-bottom: 50px;
-    /* height: 402px;
-    width: 1280px; */
+
     align-items: center;
     margin-top: 32px;
     border-radius: 24px;
@@ -270,12 +262,7 @@ main{
     border: none;
     margin-top: 32px; */
 }
-/* .world {
-    height: 306px;
-    width: 408px;
-    border: 2ps solid palevioletred;
-    
-} */
+
 
 .img-1{
     height: 306px;
@@ -288,7 +275,7 @@ main{
 
 
 
-.scend-nesw {
+.second-nesw {
     background-color: #ced9d4;
     padding: 48px;
     display: flex;
@@ -296,12 +283,13 @@ main{
     justify-content: space-between;
     margin: 0 auto;
     margin-bottom: 50px;
-    /* height: 402px;
-    width: 1280px; */
+
     align-items: center;
     margin-top: 32px;
     border-radius: 24px;
 }
+
+/* footer */
 
 
 footer{
@@ -312,6 +300,7 @@ footer{
 }
 .donate-section{
     text-align: center;
+    margin-top: 80px;
 }
 .donate {
    font-size: 40px; 
@@ -345,7 +334,7 @@ footer{
     width: 1032px;
     height: 64px;
     text-align: center;
-    /* padding: 20px 422px; */
+    
     font-size: 20px;
     background-color: rgb(235, 235, 235);
     border: none;
@@ -371,4 +360,12 @@ footer{
     font-size: 18px;
     font-weight: 600;
     color: white;
+    border-radius: 8px;
+}
+
+
+
+
+.paragraph{
+    color: rgb(149, 146, 146);
 }
