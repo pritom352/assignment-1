@@ -210,3 +210,80 @@ header {
     border-radius: 8px;
     border-color: none;
 }
+
+
+/* main section */
+main{
+    /* height: 120px; */
+    width: 1280px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    
+}
+.news{
+    /* border: 1px solid black; */
+    
+    margin-bottom: 32px;
+    width: 1280px;
+    height: 120px;
+    margin: 0 auto;
+}
+.recent-news{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.about-news{
+    color: #0E0E0E;
+    
+}
+
+.first-nesw{
+    background-color: #ced9d4;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    /* margin: 0 auto; */
+    margin-bottom: 50px;
+    /* height: 402px;
+    width: 1280px; */
+    align-items: center;
+    margin-top: 32px;
+    border-radius: 24px;
+}
+.news-heading{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.date-time{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.more {
+    color: white;
+    padding: 13px 26px;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+    margin-top: 32px; */
+}
+/* .world {
+    height: 306px;
+    width: 408px;
+    border: 2ps solid palevioletred;
+    
+} */
+
+.img-1{
+    height: 306px;
+    width: 408px;
+    
+    background-image: url(../assets/satelite.png);
+    border-radius: 24px;
+}
+
+.about-first-nesw img {
+    
+}
